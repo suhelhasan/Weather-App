@@ -2,7 +2,6 @@
 
 A simple weather app using the Dark Sky API in JavaScript &amp; HTML/CSS
 
----
 
 ## How to use?
 
