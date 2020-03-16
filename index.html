@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="skycons.js"></script>
+    <script defer src="script.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- pre-loader start from here -->
+    <div class="pre-loader">
+        <div class="loader"></div>
+        <h2>Please allow the location to see the temperature & Weather</h2>
+    </div>
+
+    <div class="weatherApp">
+        <!-- background image section start from here -->
+        <div class="imageSection"><img src="backgroundImage.svg" alt="" srcset=""></div>
+
+        <!--  actual weather app content start from here -->
+        <div class="appContent">
+            <div class="iconDiv">
+                <canvas class="icon" width="128" height="128"></canvas>
+            </div>
+            <div class="temperature">
+                <h1 class="temperature-degree"></h1>
+                <h1 class="temperature-description"></h1>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
